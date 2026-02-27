@@ -7,12 +7,10 @@ This repository is a GitHub Pages redirect from:
 
 to:
 
-- `https://dmlandscapingkings.com`
+- `https://dmlandscapingkings.com/`
 
-It preserves path, query, and hash (for example `/gallery?x=1`).
-
-Extra route files are included for common paths (`/services`, `/gallery`, `/contact`, `/work-with-us`)
-to guarantee redirect behavior even when a browser or CDN does not use the 404 fallback first.
+All old URLs redirect to the new homepage (root). This is intentional so outdated page paths
+like `/sod-installation` or `/testimonials` do not land on 404s on the new site.
 
 ## DNS setup (Wix DNS)
 
