@@ -11,6 +11,9 @@ to:
 
 It preserves path, query, and hash (for example `/gallery?x=1`).
 
+Extra route files are included for common paths (`/services`, `/gallery`, `/contact`, `/work-with-us`)
+to guarantee redirect behavior even when a browser or CDN does not use the 404 fallback first.
+
 ## DNS setup (Wix DNS)
 
 For apex `d-mlawncare.com`:
